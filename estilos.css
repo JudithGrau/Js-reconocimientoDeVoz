@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(206, 216, 216);
+}
+.container{
+    height: 90vh;
+    width: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.864);
+}
+h1{
+    text-align: center;
+}
+.btn{
+    margin: 2rem 0rem;
+    border: none;
+    height: 4rem;
+    display: block;
+    width: 90%;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: white;
+}
+button:active{
+    background-color: rgb(32, 89, 224);
+}
+.btn-grabar{
+    background-color: tomato;
+}
+input{
+    display: block;
+    width: 90%;
+    height: 2rem;
+    padding: 1rem 0rem;
+    border: 0;
+    border-bottom: 2px solid dodgerblue;
+    outline: 0;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+.oscuro{
+    background-color: black;
+    color: white;
+}
